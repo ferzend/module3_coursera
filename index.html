@@ -4,37 +4,60 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>David Chu's China Bistro</title>
+    <title>module3-solution</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
   </head>
 <body>
-  <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="js/jquery-2.1.4.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/script.js"></script>
 
-    <header>
+  <header>
     <nav id="header-nav" class="navbar navbar-default">
       <div class="container">
         <div class="navbar-header">
-          <div class="navbar-brand">
+           <div class="navbar-brand">
             <a href="index.html"><h1>Food, LLC</h1></a>
+            
           </div>
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
         </div>
         
-       </div><!-- .container -->
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+            <li>
+              <a href="#">
+                <br class="hidden-xs">Chicken</a>
+            </li>
+            <li>
+              <a href="#">
+                <br class="hidden-xs">Beef</a>
+            </li>
+            <li>
+              <a href="#">
+                <br class="hidden-xs">Sushi</a>
+            </li>
+           
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container -->
     </nav><!-- #header-nav -->
   </header>
- <div id="main-content" class="container-fluid">
+
+
+ <div id="main-content" class="container">
 
   <div>
-  	<h2 class="our-menu">Our Menu</h2>
+  	<h2 class="text-center our-menu">Our Menu</h2>
   </div>
 
  <section class="row">
-  	<div class="menu-item col-md-4 col-sm-6">
+  	<div class="menu-item col-lg-4 col-md-4 col-sm-6 col-xs-12">
   		<div class="description">
             <h3 class="menu-item-title">Chicken</h3>
             <p class="menu-item-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.</p>
@@ -42,7 +65,7 @@
       </div>
     
 
-     <div class="menu-item col-md-4 col-sm-6">
+     <div class="menu-item col-lg-4 col-md-4 col-sm-6 col-xs-12">
      	<div class="description">
             <h3 class="menu-item-title">Beef</h3>
             <p class="menu-item-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.</p>
@@ -51,7 +74,7 @@
   	</div>
 
 
-     <div class="menu-item col-md-4 col-sm-12">
+     <div class="menu-item col-lg-4 col-md-4 col-sm-12 col-xs-12">
      	<div class="description">
             <h3 class="menu-item-title">Sushi</h3>
             <p class="menu-item-details">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque inventore esse minima incidunt impedit. Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.Asperiores, voluptatem. Sint aspernatur provident, rem odio dolorem eaque voluptatibus modi reprehenderit minima, itaque cupiditate totam.</p>
@@ -60,5 +83,11 @@
 
 </section>
 </div>
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+
 </body>
 </html>
